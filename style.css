@@ -1,3 +1,93 @@
-body {
-   
+body{
+    display: block;
+}
+* {
+    margin: 0;
+    
+}
+header {
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    display: block;
+}
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+main {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main h1 {
+    font-size: 25px;
+    color: blue;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+main h2 {
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-weight: 800px;
+    text-transform: uppercase;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+main p {
+    font-size: 14px;
+    line-height: 2em;
+    margin: 30px 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div{
+    display: block;
+}
+.left {
+    width: 30%;
+    margin: 0 20px;
+}
+.btn {
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    outline: none; 
+    border: none;
+    border-radius: 30px;
 }
