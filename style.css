@@ -1,19 +1,18 @@
 body{
-    color: #666666;
-    background: #fefefe;
+    
+    background-image: url(image/header-img.jpg);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-}
-* {
-    margin: 0;
     
+   
 }
+#one{
+    width: 5rem;
+}
+
 header {
-    height: 100px;
-    background-color: aliceblue;
+    height: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +23,7 @@ nav{
 ul li a {
     padding: 0 20px;
     text-decoration: none;
-    color: red;
+    color:white;
     display: inline-block;
     
 }
@@ -35,15 +34,15 @@ ul {
     align-items: center;
 }
 main {
-    margin: 30px 0;
+    margin: 40px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 13rem;
 }
 main h1 {
     font-size: 25px;
     color: white;
-    text-transform: uppercase;
     line-height: 2em;
 }
 h1 {
@@ -58,46 +57,77 @@ h1 {
 span{
     color: rgb(31, 215, 123);
 }
-main h2 {
-    font-size: 25px;
-    letter-spacing: 8px;
-    font-weight: 800px;
-    text-transform: uppercase;
+main h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+    margin-bottom: 20px;
+   
 }
 .form {
-    width: 40%;
+    width: 60%;
+    height: 90%;
     background: white;
     border: 1px solid #ebebeb;
     padding: 35px;
     
 }
+#now {
+    color: black;
+}
 main p {
     font-size: 14px;
     line-height: 2em;
-    margin: 30px 0;
-}
-p {
+    margin-right: 12rem;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    color: white;
 }
+
 div{
     display: block;
 }
-.left {
-    width: 30%;
-    margin: 0 20px;
+input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 80%;
+    border: none;
+    background-color: rgb(196, 194, 194);
 }
+
 .right{
     margin-left: 30px;
 }
-.btn {
-    padding: 15px 30px;
-    background-color: rgb(31, 215, 123);
-    color: white;
-    outline: none; 
-    border: none;
-    border-radius: 30px;
+#two {
+    color: rgb(49, 46, 46);
+    margin: 0;
+    padding: 10PX;
 }
+.btn {
+    padding: 10px 27px;
+    background-color: rgb(31, 215, 123);
+    color: white; 
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.more {
+    padding: 10px 27px;
+    background-color: rgb(225, 230, 228);
+    color: black;
+    
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 15px;
+
+}
+
+.more:hover
+{
+   background-color: black;
+   color: white; 
+}
+
+@media (min-width: 500px) {
+    
+  }
+
