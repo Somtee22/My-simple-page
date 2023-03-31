@@ -44,24 +44,32 @@
             <button class="btn">Our Pricing</button>
     </div>
 <div class="right">
-    <form action="success.html">
+    <form name="form" action="" method="get">
         <div class="form">
             <h2 id="now"   >Register now, it's <span>free</span></h2>
             <h5>Complete the form below to get instant access</h5>
             
              <div class="input">    
-                <input  name="Email" type="email" required placeholder="    Email"/>
+                <input  name="Email" type="email"  placeholder="    Email"/>
                 
-                <input name="username" type="text" required  placeholder="    Username" />
+                <input name="username" type="text"  placeholder="    Username" />
                 <input name="password" type="password" placeholder="    Password"/>
         
                 <input  name="password" type="password" placeholder="    Confirm Password" />
                 <p id="two">  Terms and Conditions</p>
-                <button  class="btn" type="submit" id="reg-submit">Register</button>
+                <button id="reg">Register</button>
+       
+                <!-- <input id="reg"    type="button" name="button" value="Register" onclick="validateform(this.form)"> -->
              </div>
             </div>
        
-        </form>               
+        </form>    
+        <script type="application/javascript">
+           var reg = document.getElementById('reg');
+           reg.addEventListener('click', function(){
+          window.alert('Successful')
+           });
+        </script>           
 </div>
 </main>
   </body>

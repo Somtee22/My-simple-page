@@ -125,6 +125,16 @@ input {
    background-color: black;
    color: white; 
 }
+#reg{
+    padding: 5px ;
+    background-color: rgb(31, 215, 123);
+    color: white; 
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 30px;
+    margin-top: 15px;
+    width: 30%;
+}
+
 
 @media (max-width: 500px) {
     body{
@@ -138,7 +148,6 @@ input {
     }
     ul li a {
         padding: 0 10px;
-        text-decoration: none;
         color:white;
         display: inline-block;
         
